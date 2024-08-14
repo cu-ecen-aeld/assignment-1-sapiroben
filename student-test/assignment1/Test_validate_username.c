@@ -20,6 +20,6 @@ void test_validate_my_username()
      */
     const char *expected = my_username();
     char *actual = malloc_username_from_conf_file();
-    TEST_ASSERT_EQUAL_STRING_MESSAGE(expected, actual, "Success");
+    TEST_ASSERT_EQUAL_STRING_MESSAGE(expected, actual, "Not match");
     // TEST_ASSERT_TRUE_MESSAGE(false,"AESD students, please fix me!");
 }
